@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/service-api/service-api.iml" filepath="$PROJECT_DIR$/eureka-client/service-api/service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/service-consumer/service-consumer.iml" filepath="$PROJECT_DIR$/eureka-client/service-consumer/service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/service-provider/service-provider.iml" filepath="$PROJECT_DIR$/eureka-client/service-provider/service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo.iml" />
+    </modules>
+  </component>
+</project>

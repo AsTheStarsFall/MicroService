@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-client-apollo/config-client-apollo.iml" filepath="$PROJECT_DIR$/config-client-apollo/config-client-apollo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client-apollo2/config-client-apollo2.iml" filepath="$PROJECT_DIR$/config-client-apollo2/config-client-apollo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-zuul-apollo/gateway-zuul-apollo.iml" filepath="$PROJECT_DIR$/gateway-zuul-apollo/gateway-zuul-apollo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-apollo.iml" filepath="$PROJECT_DIR$/spring-cloud-apollo.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/feign-manyargs/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/feign-manyargs/eureka-consumer/eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-manyargs/eureka-provider/eureka-provider.iml" filepath="$PROJECT_DIR$/feign-manyargs/eureka-provider/eureka-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-manyargs/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/feign-manyargs/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-upload/feign-file-server/feign-file-server.iml" filepath="$PROJECT_DIR$/feign-upload/feign-file-server/feign-file-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-upload/feign-file-upload-client/feign-file-upload-client.iml" filepath="$PROJECT_DIR$/feign-upload/feign-file-upload-client/feign-file-upload-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-gzip/feign-gzip.iml" filepath="$PROJECT_DIR$/feign-gzip/feign-gzip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-hello/feign-hello.iml" filepath="$PROJECT_DIR$/feign-hello/feign-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-httpclient/feign-httpclient.iml" filepath="$PROJECT_DIR$/feign-httpclient/feign-httpclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-manyargs/feign-manyargs.iml" filepath="$PROJECT_DIR$/feign-manyargs/feign-manyargs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-okhttp/feign-okhttp.iml" filepath="$PROJECT_DIR$/feign-okhttp/feign-okhttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-upload/feign-upload.iml" filepath="$PROJECT_DIR$/feign-upload/feign-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-upload/feign-upload-eureka-server/feign-upload-eureka-server.iml" filepath="$PROJECT_DIR$/feign-upload/feign-upload-eureka-server/feign-upload-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-feign-demo.iml" />
+    </modules>
+  </component>
+</project>

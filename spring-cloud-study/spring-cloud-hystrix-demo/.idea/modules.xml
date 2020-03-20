@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hystrix-first/client-service/client-service.iml" filepath="$PROJECT_DIR$/hystrix-first/client-service/client-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-hystrix/consumer-service/consumer-service.iml" filepath="$PROJECT_DIR$/feign-hystrix/consumer-service/consumer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/dashboard-erureka-server/dashboard-erureka-server.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/dashboard-erureka-server/dashboard-erureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/dashboard-provider-service/dashboard-provider-service.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/dashboard-provider-service/dashboard-provider-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-hystrix/feign-hystrix.iml" filepath="$PROJECT_DIR$/feign-hystrix/feign-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-hystrix/feign-hystrix-eureka-server/feign-hystrix-eureka-server.iml" filepath="$PROJECT_DIR$/feign-hystrix/feign-hystrix-eureka-server/feign-hystrix-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hello-service/hello-service.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hello-service/hello-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-exception-service/hystrix-exception-service.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-exception-service/hystrix-exception-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-first/hystrix-first.iml" filepath="$PROJECT_DIR$/hystrix-first/hystrix-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-first/hystrix-first-eureka-server/hystrix-first-eureka-server.iml" filepath="$PROJECT_DIR$/hystrix-first/hystrix-first-eureka-server/hystrix-first-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-hystrix/provider-service/provider-service.iml" filepath="$PROJECT_DIR$/feign-hystrix/provider-service/provider-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/sc-hystrix-dashboard/sc-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/sc-hystrix-dashboard/sc-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-hystrix-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-hystrix-demo.iml" />
+    </modules>
+  </component>
+</project>

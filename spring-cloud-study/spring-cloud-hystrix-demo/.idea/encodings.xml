@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-hystrix/consumer-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-hystrix/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-hystrix/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-hystrix/feign-hystrix-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-hystrix/provider-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard/dashboard-erureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard/dashboard-provider-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard/hello-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-exception-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard/sc-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-first" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-first" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-first/client-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-first/client-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-first/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-first/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-first/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-first/hystrix-first-eureka-server" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+server:
+  port: 9093
+spring:
+  application:
+    name: config-client-apollo2
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+apollo:
+  bootstrap:
+    enabled: true
+    namespaces: TEST1.zuul-config
+  meta: http://localhost:8080

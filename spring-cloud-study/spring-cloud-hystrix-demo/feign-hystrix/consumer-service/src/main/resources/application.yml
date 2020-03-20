@@ -1,0 +1,4 @@
+#在feign中开启hystrix
+feign:
+  hystrix:
+    enabled: true

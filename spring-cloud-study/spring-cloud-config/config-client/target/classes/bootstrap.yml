@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      label: master #表示请求git哪个分支
+      uri: #config server的地址
+        - http://localhost:9090
+      name: config-info #代表要请求哪个名称的远程文件
+      profile: dev #代表哪个分支的文件

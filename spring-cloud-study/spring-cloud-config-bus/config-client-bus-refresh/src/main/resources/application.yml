@@ -1,0 +1,16 @@
+server:
+  port: 9095
+spring:
+  application:
+    name: config-client-bus-refresh
+
+  #RabbitMQ
+  rabbitmq:
+    host: 119.23.249.97
+    port: 5672
+    username: admin
+    password: 123456
+  cloud:
+    bus:
+      trace:
+        enabled: true

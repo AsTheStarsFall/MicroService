@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ribbon-config/config-eureka-client/config-eureka-client.iml" filepath="$PROJECT_DIR$/ribbon-config/config-eureka-client/config-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-config/config-eureka-server/config-eureka-server.iml" filepath="$PROJECT_DIR$/ribbon-config/config-eureka-server/config-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-config/config-ribbon-loadblancer/config-ribbon-loadblancer.iml" filepath="$PROJECT_DIR$/ribbon-config/config-ribbon-loadblancer/config-ribbon-loadblancer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-first/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/ribbon-first/eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-first/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/ribbon-first/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-config/ribbon-config.iml" filepath="$PROJECT_DIR$/ribbon-config/ribbon-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-first/ribbon-first.iml" filepath="$PROJECT_DIR$/ribbon-first/ribbon-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-first/ribbon-loadblancer/ribbon-loadblancer.iml" filepath="$PROJECT_DIR$/ribbon-first/ribbon-loadblancer/ribbon-loadblancer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-ribbon-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-ribbon-demo.iml" />
+    </modules>
+  </component>
+</project>

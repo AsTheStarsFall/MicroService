@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="feign-upload-eureka-server" />
+        <module name="eureka-server" />
+        <module name="feign-gzip" />
+        <module name="feign-okhttp" />
+        <module name="feign-file-upload-client" />
+        <module name="eureka-consumer" />
+        <module name="eureka-provider" />
+        <module name="feign-file-server" />
+        <module name="feign-httpclient" />
+        <module name="feign-hello" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-provider" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="feign-file-server" target="1.8" />
+      <module name="feign-file-upload-client" target="1.8" />
+      <module name="feign-gzip" target="1.8" />
+      <module name="feign-hello" target="1.8" />
+      <module name="feign-httpclient" target="1.8" />
+      <module name="feign-manyargs" target="1.8" />
+      <module name="feign-okhttp" target="1.8" />
+      <module name="feign-upload" target="1.8" />
+      <module name="feign-upload-eureka-server" target="1.8" />
+      <module name="spring-cloud-feign-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-consumer" options="-parameters" />
+      <module name="eureka-provider" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="feign-file-server" options="-parameters" />
+      <module name="feign-file-upload-client" options="-parameters" />
+      <module name="feign-gzip" options="-parameters" />
+      <module name="feign-hello" options="-parameters" />
+      <module name="feign-httpclient" options="-parameters" />
+      <module name="feign-manyargs" options="-parameters" />
+      <module name="feign-okhttp" options="-parameters" />
+      <module name="feign-upload" options="-parameters" />
+      <module name="feign-upload-eureka-server" options="-parameters" />
+      <module name="spring-cloud-feign-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

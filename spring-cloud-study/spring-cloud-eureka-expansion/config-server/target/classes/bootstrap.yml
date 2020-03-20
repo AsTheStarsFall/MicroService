@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active:
+      - native #使用文件来存储配置，默认放在resources/config下
+server:
+  port: 8888

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client-service" />
+        <module name="sc-hystrix-dashboard" />
+        <module name="dashboard-erureka-server" />
+        <module name="dashboard-provider-service" />
+        <module name="consumer-service" />
+        <module name="provider-service" />
+        <module name="feign-hystrix-eureka-server" />
+        <module name="hystrix-exception-service" />
+        <module name="hystrix-first-eureka-server" />
+        <module name="hello-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client-service" target="1.8" />
+      <module name="consumer-service" target="1.8" />
+      <module name="dashboard-erureka-server" target="1.8" />
+      <module name="dashboard-provider-service" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="feign-hystrix" target="1.8" />
+      <module name="feign-hystrix-eureka-server" target="1.8" />
+      <module name="hello-service" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="hystrix-exception-service" target="1.8" />
+      <module name="hystrix-first" target="1.8" />
+      <module name="hystrix-first-eureka-server" target="1.8" />
+      <module name="provider-service" target="1.8" />
+      <module name="sc-hystrix-dashboard" target="1.8" />
+      <module name="spring-cloud-hystrix-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="client-service" options="-parameters" />
+      <module name="consumer-service" options="-parameters" />
+      <module name="dashboard-erureka-server" options="-parameters" />
+      <module name="dashboard-provider-service" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="feign-hystrix" options="-parameters" />
+      <module name="feign-hystrix-eureka-server" options="-parameters" />
+      <module name="hello-service" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
+      <module name="hystrix-exception-service" options="-parameters" />
+      <module name="hystrix-first" options="-parameters" />
+      <module name="hystrix-first-eureka-server" options="-parameters" />
+      <module name="provider-service" options="-parameters" />
+      <module name="sc-hystrix-dashboard" options="-parameters" />
+      <module name="spring-cloud-hystrix-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

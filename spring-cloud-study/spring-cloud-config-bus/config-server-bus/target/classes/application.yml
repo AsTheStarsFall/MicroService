@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          #uri: https://github.com/AsTheStarsFall/spring-cloud-config.git
+          uri: https://github.com/AsTheStarsFall/spring-cloud-configInfo.git
+          search-paths:
+            - SC-CONFIG
+  application:
+    name: config-server-bus
+
+  #RabbitMQ配置信息
+  rabbitmq:
+    host: 119.23.249.97
+    port: 5672
+    username: admin
+    password: 123456
+
+server:
+  port: 9090

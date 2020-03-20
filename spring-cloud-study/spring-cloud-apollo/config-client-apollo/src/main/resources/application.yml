@@ -1,0 +1,15 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: config-client-apollo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+apollo:
+  bootstrap:
+    enabled: true
+    namespaces: application
+  meta: http://localhost:8080

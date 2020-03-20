@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-gzip" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-hello" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-httpclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-manyargs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-manyargs/eureka-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-manyargs/eureka-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-manyargs/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-okhttp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-upload/feign-file-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-upload/feign-file-upload-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-upload/feign-upload-eureka-server" charset="UTF-8" />
+  </component>
+</project>
