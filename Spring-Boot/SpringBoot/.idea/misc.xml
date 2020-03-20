@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-c2" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-c3" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-c4-aop" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-springmvc" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringWebMvc" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SpringWebMvc/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-BeanValidation/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-c3/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-c4-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-c5jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jms/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-security/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-user/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-dashbord/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mall/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectKey">
+    <option name="state" value="project://63537948-39a4-48a0-9c97-34259a0fa913" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="jetbrains.communicator.idea.IdProvider" IDEtalkID="524936099C6B957E3169E44CEFE4132D" />
+</project>

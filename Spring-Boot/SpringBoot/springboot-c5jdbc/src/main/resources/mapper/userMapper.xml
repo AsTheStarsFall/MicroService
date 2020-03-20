@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tianhy.springbootc5jdbc.dao.MybatisUserDao">
+
+    <!--
+        select id 代表一个statement,一条语句的查询，id属性代指这条Sql
+        parameterType 参数类型
+        resultType 返回类型，这里用user，因为在实体类中 @Alias(value = "user") 指明了
+    -->
+    <select id="getUser" parameterType="long" resultType="user">
+        SELECT id,user_name as userName,note,sex FROM t_user WHERE id = #{id}
+    </select>
+
+</mapper>

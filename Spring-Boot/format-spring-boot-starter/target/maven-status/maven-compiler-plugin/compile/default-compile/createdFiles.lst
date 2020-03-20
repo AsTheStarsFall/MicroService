@@ -1,0 +1,9 @@
+com\tianhy\format\FormatProcessor.class
+com\tianhy\autoconfiguration\FormatPropterties.class
+com\tianhy\autoconfiguration\FormatConfiguration.class
+com\tianhy\autoconfiguration\FormatAutoConfiguration.class
+com\tianhy\App.class
+com\tianhy\FormatTemplate.class
+META-INF\spring-configuration-metadata.json
+com\tianhy\format\StringFormatProcessor.class
+com\tianhy\format\JsonFormatProcessor.class

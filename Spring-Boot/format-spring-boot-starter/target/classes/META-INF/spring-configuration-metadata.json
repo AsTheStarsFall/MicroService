@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "format.info",
+      "type": "com.tianhy.autoconfiguration.FormatPropterties",
+      "sourceType": "com.tianhy.autoconfiguration.FormatPropterties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "format.info.info",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.tianhy.autoconfiguration.FormatPropterties"
+    }
+  ],
+  "hints": []
+}

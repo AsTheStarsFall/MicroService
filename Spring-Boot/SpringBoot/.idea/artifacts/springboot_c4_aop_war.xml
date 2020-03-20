@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-c4-aop:war">
+    <output-path>$PROJECT_DIR$/springboot-c4-aop/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-c4-aop</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-c4-aop-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-c4-aop:war exploded" />
+    </root>
+  </artifact>
+</component>

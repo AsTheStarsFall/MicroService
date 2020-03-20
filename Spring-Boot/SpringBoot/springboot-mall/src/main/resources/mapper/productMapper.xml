@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tianhy.springbootmall.dao.ProductDao">
+    <!--获取产品-->
+    <select id="getProduct" parameterType="long" resultType="product">
+        SELECT id, product_name productName, stock, price, version, note
+        FROM product
+        WHERE id = #{id}
+        /*for update*/ /*for update 悲观锁，锁定拆查询结果，其他线程无法进行读写*/
+    </select>
+
+    <!--减库存-->
+    <update id="decreamentProduct">
+        UPDATE product
+        SET stock = stock - #{quantity}
+            /*采用版本号来实现乐观锁，大量请求会失败，使用时间戳限制*/
+        WHERE id = #{id}
+    </update>
+</mapper>

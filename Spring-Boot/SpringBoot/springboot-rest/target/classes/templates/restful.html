@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RESTful </title>
+    <script type="text/javascript"
+            src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+
+        // function postStatus() {
+        //     var params = {
+        //         'userName': 'user_name_new',
+        //         'note': 'note_new',
+        //         'sexCode': 1
+        //     }
+        //     $.post({
+        //             url: "./user",
+        //             contentType: "application/json",
+        //             data: JSON.stringify(params),
+        //             success: function (result) {
+        //                 if (result.code == 200) {
+        //                     alert(result.msg);
+        //                     result;
+        //                 }
+        //                 alert(result.msg);
+        //             }
+        //         }
+        //     );
+        // }
+        // postStatus();
+
+
+        // function get() {
+        //     $.get("./user/1",function (result) {
+        //         if (result.code == 200) {
+        //             alert(result.msg);
+        //             result;
+        //         }
+        //         alert(JSON.stringify(result));
+        //     });
+        // }
+        // get();
+
+/*        function updateUser() {
+            var params = {
+                'userName': 'user_name_1_new',
+                'note': 'note_1_new',
+                'sexCode': 1
+            }
+            $.ajax({
+                url:"./user/1",
+                type: 'PUT',
+                contentType: "application/json",
+                data: JSON.stringify(params),
+                success: function (result) {
+                    if (result.code == 200) {
+                        alert(result.msg);
+                        result;
+                    }
+                    alert(JSON.stringify(result));
+                }
+            });
+        }
+
+        updateUser();*/
+        	function postStatus() {
+                // 请求体
+                var params = {
+                    'userName': 'user_name_new',
+                    'sexCode' : 1,
+                    'note' : "note_new"
+                }
+                var url = "./user2/annotation";
+                // var url = "./user2/annotation";
+                $.post({
+                    url : url,
+                    // 此处需要告知传递参数类型为JSON，不能缺少
+                    contentType : "application/json",
+                    // 将JSON转化为字符串传递
+                    data : JSON.stringify(params),
+                    // 成功后的方法
+                    success : function(result, status, jqXHR) {
+                        // 获取响应头
+                        var success = jqXHR.getResponseHeader("success");
+                        // 获取状态码
+                        var status = jqXHR.status;
+                        alert("响应头参数是：" + success+"，状态码是：" + status);
+                        if (result == null || result.id == null) {
+                            alert("插入失败");
+                            return;
+                        }
+                        alert("插入成功");
+                    }
+                });
+            }
+            postStatus();
+    </script>
+</head>
+<body>
+<body>
+<h1>测试RESTful下的请求</h1>
+</body>
+</body>
+</html>

@@ -1,0 +1,13 @@
+shiro:
+  enabled: true
+  web:
+    enabled: true
+  loginUrl: /login
+  successUrl: /index
+  #未授权默认跳转地址
+  unauthorizedUrl: unauthorized
+  sessionManager:
+    #是否通过URL参数实现会话跟踪
+    sessionIdUrlRewritingEnabled: true
+    #是否允许通过Cookie实现会话跟踪
+    sessionIdCookieEnabled: true

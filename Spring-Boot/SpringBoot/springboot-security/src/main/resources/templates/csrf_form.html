@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>CSRF FORM</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<form action="#" th:action="@{/csrf/commit}" th:object="${thymeleaf}" method="post">
+    <p>
+        名称：<input type="text" th:field="*{name}"/>
+    </p>
+    <p>
+        描述：<input type="text" th:field="*{describe}"/>
+    </p>
+    <p>
+        <input type="submit" value="提交"/>
+    </p>
+    <!--_csrf对象是Spring提供的-->
+    <input type="hidden" id="${_csrf.parameterName}"
+           name="${_csrf.parameterName}" value="${_csrf.token}"/>
+</form>
+</body>
+</html>

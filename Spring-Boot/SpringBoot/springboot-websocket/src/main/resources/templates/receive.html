@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>websocket test</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/sockjs/1/sockjs.min.js"></script>
+    <script type="text/javascript" src="../../js/stomp.min.js"></script>
+</head>
+<script type="text/javascript">
+    var noticeSocket = function () {
+        // 连接服务器端点
+        var s = new SockJS('/socket');
+        // 客户端
+        var stompClient = Stomp.over(s);
+        stompClient.connect({}, function () {
+            console.log('notice socket connected!');
+            // 订阅消息地址
+            stompClient.subscribe('/sub/chat', function (data) {
+                $('#receive').html(data.body);
+            });
+        });
+    };
+    noticeSocket();
+</script>
+<body>
+<h1><span id="receive">等待接收消息</span></h1>
+</body>
+</html>

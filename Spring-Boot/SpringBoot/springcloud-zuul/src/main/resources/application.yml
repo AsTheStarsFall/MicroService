@@ -1,0 +1,39 @@
+server:
+  port: 80
+spring:
+  application:
+    name: zuul
+    #Redis服务器配置
+  redis:
+    jedis:
+      pool:
+        max-idle: 10
+        min-idle: 5
+        max-active: 10
+        max-wait: 2000
+    port: 6379
+    host: 127.0.0.1
+    timeout: 1000
+#    password:
+
+
+#注册给服务治理中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+#网关配置
+zuul:
+  #路由
+  routes:
+    user-service:
+      #用户服务URL匹配规则，满足path匹配规则的请求将映射到url
+      path: /u/**
+      #指定映射的用户服务地址,Zuul就会将将请求转发到用户服务上
+      url: http://localhost:8082/
+    product-service:
+      path: /p/**
+      #网关会将/p/**请求转发到product服务节点
+      serviceId: product
+
